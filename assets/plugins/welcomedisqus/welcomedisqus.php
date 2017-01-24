@@ -28,7 +28,7 @@ $e = &$modx->Event;
 
 if($e->name == 'OnManagerMainFrameHeaderHTMLBlock') {
 $jsinclude = '
-<script src="../assets/plugins/dashboard/plugins/jquery-2.1.4.min.js"></script>
+<script src="media/script/jquery/jquery.min.js"></script>
     <script>
 /*---------- Setting ----------------*/
 bcr_disqus(\''.$DisqusDomain.'\','.$num_items.',\''.$DisqusApiKey.'\');
